@@ -1,0 +1,37 @@
+{
+    "name": "kibao/completeness-meter",
+    "description": "Completeness Meter library",
+    "keywords": ["completeness", "score", "scoring", "complete", "calculate"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Przemysław Piechota",
+            "email": "kibao.pl@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3"
+    },
+
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+
+    "config": {
+        "bin-dir": "bin"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Kibao\\": "src/"
+        }
+    },
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}

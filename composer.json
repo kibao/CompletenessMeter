@@ -1,7 +1,7 @@
 {
     "name": "kibao/completeness-meter",
-    "description": "Completeness Meter library",
-    "keywords": ["completeness", "score", "scoring", "complete", "calculate"],
+    "description": "Completeness Meter library. Calculates how complete a model instance is (similar to LinkedIn profile completeness)",
+    "keywords": ["completeness", "score", "scoring", "complete", "calculate", "profile"],
     "type": "library",
     "license": "MIT",
     "authors": [
